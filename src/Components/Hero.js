@@ -3,7 +3,7 @@ import retroBanner from '../Assets/retroBanner.mp4'
 
 function Hero() {
     return (
-          <div className="">
+          <div className="hero-wrapper">
           <div className="main-hero">
             <video src={retroBanner} autoPlay loop muted />
           </div>

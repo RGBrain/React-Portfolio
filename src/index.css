@@ -1,3 +1,5 @@
+/* TODO: Choose a cool retro google font for the body.  Perhaps Monospace or Source Code Pro */
+
 * {
   padding: 0px;
   margin: 0px;
@@ -16,33 +18,46 @@ code {
     monospace;
 }
 
-
+ /* 
+ NAVBAR
+ */
  .navbar {
   font-family: 'VT323', monospace;
 }
 
-.nav-item {
-  font-size: 20px;
-}
-
-.navbar-brand {
-  font-size: 40px;
-}
-
-.navbar-text {
-  font-size: 40px;
-}
-
-/* Container for banner video */
+/* 
+HERO
+*/
 .main-hero {
-  height: 100vh;
+  height: 18vh;
   width: 100%;
+  background-image: url(../src/Assets/retroBanner.mp4);
 }
 
 /* Main banner video */
 video {
-  height: 100%;
+  height: 80%;
   width: 100%;
   object-fit: cover;
   position: fixed;
 }
+
+/* 
+PROJECTS 
+*/
+
+
+/* Card Title text */
+h5 {
+  color: white;
+}
+
+/* 
+FOOTER
+ */
+
+ footer-wrapper {
+  padding-top: 100px;
+ }
+
+
