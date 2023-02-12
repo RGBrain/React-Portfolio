@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, NavLink } from 'react-router-dom';
+
 function Navbar() {
     return (
       // Need to remove the bg-dark class, which will make navbar transparent, then move the image up.
@@ -12,17 +14,18 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <NavLink to="/" className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
+                    <NavLink to="/about" className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'}>About</NavLink>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Projects</a>
+                    <NavLink to="/projects" className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'}>Projects</NavLink>
                     </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="#">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
           </div>
