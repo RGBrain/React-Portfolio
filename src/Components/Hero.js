@@ -7,9 +7,6 @@ function Hero() {
           <div className="main-hero">
             <video src={retroBanner} autoPlay loop muted />
           </div>
-          <div className="main-heading">
-            <h1 style={{fontSize:"80px"}}>Richard Brain - Web Developer</h1>
-          </div>
           </div>
     );
   }
