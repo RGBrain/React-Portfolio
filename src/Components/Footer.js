@@ -10,7 +10,7 @@ function Footer() {
                 isActive ? 'nav-link active' : 'nav-link'}><p className="text-white">Home</p></NavLink></li>
                     <li className="nav-item"><NavLink to="/projects" className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'}><p className="text-white">Projects</p></NavLink></li>
-                    <li className="nav-item"><NavLink to="/projects" className={({ isActive }) =>
+                    <li className="nav-item"><NavLink to="/contact" className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'}><p className="text-white">Contact</p></NavLink></li>
                     </ul>
                     <p className="text-center text-muted">© 2023 Richard Brain</p>
