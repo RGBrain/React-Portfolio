@@ -6,10 +6,12 @@ class Projects extends Component {
   state = {
     data
   };
-  
+
   render() {
+    console.log(this.state.data, "hello world")
     return (
-      <div>
+      <div className="container project-card-grid">
+        <div className="row gy-4">
         {this.state.data.map(project => (
           <ProjectCard
             image={project.image}
@@ -18,6 +20,7 @@ class Projects extends Component {
             tech={project.tech}
           />
         ))}
+        </div>
       </div>
     );
   }

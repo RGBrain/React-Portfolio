@@ -1,5 +1,10 @@
 /* TODO: Choose a cool retro google font for the body.  Perhaps Monospace or Source Code Pro */
 
+/* ! STRETCH GOAL: Customise the Bootstrap file to change color palette and fonts:
+node_modules/bootstrap/scss/_variables.scss
+https://www.youtube.com/watch?v=nCX3QVl_PiI
+ */
+
 * {
   padding: 0px;
   margin: 0px;
@@ -46,6 +51,12 @@ video {
 PROJECTS 
 */
 
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+  object-position: 25% 50%;
+}
 
 /* Card Title text */
 h5 {

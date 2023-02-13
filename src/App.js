@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Hero from './Components/Hero'
-import About from './Components/About'
+import Hero from './Components/Hero';
+import Home from './Components/Home';
 import Projects from './Components/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// TODO: ADD README-Generator screenshot
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
         {/* Need to change the layout so that the Hero is within the other components */}
         <Navbar />
           <Routes>
-              <Route path="/" element={<Hero />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               {/* <Route path="/contact" element={<Search/>} /> */}
           </Routes>

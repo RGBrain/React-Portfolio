@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Big Night In",
+        "gitHub": "https://github.com/RGBrain/Big-Night-In",
+        "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
+        "image": "/images/bni.png",
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
+        "info": "Big Night in is a site that provides a user with movie recommendations"
+    },
+    {
+        "id": 2,
+        "title": "README Generator",
+        "gitHub": "https://github.com/RGBrain/README-Generator",
+        "liveUrl": "not live",
+        "image": "/images/bniScreenshot.jpg",
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
+        "info": "Big Night in is a site that provides a user with movie recommendations"
+    },    
+    {
+        "id": 3,
+        "title": "React Portfolio",
+        "gitHub": "https://github.com/RGBrain/Big-Night-In",
+        "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
+        "image": "/images/bniScreenshot.jpg",
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
+        "info": "Big Night in is a site that provides a user with movie recommendations"
+    },    
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "gitHub": "https://github.com/RGBrain/Weather-Dashboard",
+        "liveUrl": "https://rgbrain.github.io/Weather-Dashboard/",
+        "image": "/images/weather-dashboard.png",
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
+        "info": "Big Night in is a site that provides a user with movie recommendations"
+    },    
+    {
+        "id": 5,
+        "title": "Password Generator",
+        "gitHub": "https://github.com/RGBrain/PW-Generator",
+        "liveUrl": "https://rgbrain.github.io/PW-Generator/",
+        "image": "/images/password-generator.png",
+        "tech": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+        "info": "JS Application which with create a pseudo-random password, with customised options"
+    },    
+    {
+        "id": 6,
+        "title": "Team Profile Generator",
+        "gitHub": "https://github.com/RGBrain/Team-Profile-Generator",
+        "liveUrl": "not live",
+        "image": "/images/team-profile-generator.png",
+        "tech": ["Node.js", "HTML", "CSS", "Bootstrap"],
+        "info": "Command Line Application - uses Node.js to collect information regarding a team and then renders a webpage"
+    }
+]

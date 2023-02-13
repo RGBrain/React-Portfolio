@@ -1,6 +1,7 @@
 import React from "react";
 
 function ProjectCard(props) {
+    {console.log(props.image)}
     return (
         <div className="col-md-4">
         <div className="card">
