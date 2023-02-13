@@ -4,7 +4,7 @@ function ProjectCard(props) {
     return (
         <div className="col-md-4">
         <div className="card">
-            <img src={props.screenshot} className="card-img-top" alt="..." />
+            <img src={props.image} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="">{props.title}</h5>
                 <p className="card-text">{props.gitHub}</p>
