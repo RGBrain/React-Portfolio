@@ -3,24 +3,20 @@ import React from "react";
 function Contact() {
     return (
         // Contact form
-        <section id="contact">
+        <section id="contact d-flex">
           <div className="container-lg">
-            <div className="text-center">
-                <h2>Get in Touch</h2>
-                <p className="lead">Please get in touch to contact me</p>
-            </div>
 
-            <div className="row justify-content-center my-5 text-white m-2">
+            <div className="row justify-content-center text-white m-5">
                 <div className="col-lg-6">
-                    <form className="">
-                        <label for="name" className="form-label mb-1 mt-3">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="e.g. Salvador"/>
+                    <form className="text-white p-3 pb-5 pt-5 bg-transparent">
+                        <div className="text-center border rounded" style={{height: "70px"}} id="contact-heading">
+                            <h2 className="text-white mt-3">Get in Touch</h2>
+                        </div>
+                        <input type="text" class="form-control mb-1 mt-3 text-white" style={{height: "40px"}} id="name" placeholder="Name"/>
 
-                        <label for="email" className="form-label mb-1 mt-3">Email Address:</label>
-                        <input type="email" class="form-control" id="email" placeholder="e.g. salvador@maliwan.com" />
+                        <input type="email" class="form-control mb-1 mt-3 text-white" id="email" placeholder="Email" />
                         
-                        <label for="query" className="form-label mb-1 mt-3">Your query:</label>
-                        <textarea id="query" className="form-control text-white" style={{height: "140px"}}></textarea>
+                        <textarea id="query" placeholder="Message" className="form-control mb-1 mt-3 text-white" style={{height: "140px"}}></textarea>
 
                         <div className="text-center mb-4 mt-3">
                             <button type="submit" className="btn btn-secondary">Submit</button>
