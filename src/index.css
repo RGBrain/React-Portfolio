@@ -36,7 +36,6 @@ HERO
 .main-hero {
   height: 18vh;
   width: 100%;
-  background-image: url(../src/Assets/retroBanner.mp4);
 }
 
 /* Main banner video */

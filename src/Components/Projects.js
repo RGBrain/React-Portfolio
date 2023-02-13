@@ -8,7 +8,6 @@ class Projects extends Component {
   };
 
   render() {
-    console.log(this.state.data, "hello world")
     return (
       <div className="container project-card-grid">
         <div className="row gy-4">
