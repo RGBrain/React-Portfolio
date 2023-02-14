@@ -5,17 +5,17 @@
         "gitHub": "https://github.com/RGBrain/Big-Night-In",
         "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
         "image": "/images/bni.png",
-        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
-        "info": "Big Night in is a site that provides a user with movie recommendations"
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS"],
+        "info": "Big Night in is a site that provides a user with movie recommendations.  Working in a team of three, I was responsible for writing the JavaScript, including handling the API calls"
     },
     {
         "id": 2,
         "title": "README Generator",
         "gitHub": "https://github.com/RGBrain/README-Generator",
         "liveUrl": "not live",
-        "image": "/images/bniScreenshot.jpg",
-        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
-        "info": "Big Night in is a site that provides a user with movie recommendations"
+        "image": "/images/readme-generator.png",
+        "tech": ["Node.js", "JS", "Markdown"],
+        "info": "Command Line Application - uses Node.js to generate professional README documentation from command line inputs."
     },    
     {
         "id": 3,
@@ -23,8 +23,8 @@
         "gitHub": "https://github.com/RGBrain/Big-Night-In",
         "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
         "image": "/images/bniScreenshot.jpg",
-        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
-        "info": "Big Night in is a site that provides a user with movie recommendations"
+        "tech": ["React", "JavaScript", "HTML", "CSS", "Bootstrap 5"],
+        "info": "Created using React, and embracing the modular nature that it allows.  I used Bootstrap 5 for the front-end; this portfolio had to completed in four days, and I made the decision to leverage Bootstrap's responsive framework"
     },    
     {
         "id": 4,

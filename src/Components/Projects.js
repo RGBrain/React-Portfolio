@@ -13,6 +13,7 @@ class Projects extends Component {
         <div className="row gy-4">
         {this.state.data.map(project => (
           <ProjectCard
+            info={project.info}
             image={project.image}
             title={project.title}
             gitHub={project.gitHub}
