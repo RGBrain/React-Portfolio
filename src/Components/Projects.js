@@ -18,6 +18,7 @@ class Projects extends Component {
             title={project.title}
             gitHub={project.gitHub}
             tech={project.tech}
+            liveUrl={project.liveUrl}
           />
         ))}
         </div>

@@ -73,6 +73,22 @@ PROJECTS
   object-position: 25% 50%;
 }
 
+/* buttons */
+#gitBtn {
+  border: white 1px solid;
+}
+
+#liveBtn {
+  border: white 1px solid;
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
 /* Card Title text */
 h5 {
   color: white;
