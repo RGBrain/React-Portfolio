@@ -6,14 +6,16 @@ function Navbar() {
     return (
 
       <header className="navigation">
-        <nav className="navbar navbar-dark navbar-default fixed-top">
+        <nav className="navbar navbar-dark navbar-default fixed-top navbar-expand-lg">
           <div className="container-fluid" role="navigation">
-            <a className="navbar-brand fs-1" href="#">Richard Brain  |  Web Developer</a>
+            {/* // TODO: Add navlink Home button link on name. */}
+            <a className="navbar-brand fs-1 m-2 mb-0" href="#">Richard Brain  |  Web Developer</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon pt-5"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav ">
+            <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+              {/* // TODO: collapse menu on link click */}
+                <ul className="navbar-nav pt-2 m-2">
                     <li className="nav-item fs-3" >
                     <NavLink to="/" className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
