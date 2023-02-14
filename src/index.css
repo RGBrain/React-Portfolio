@@ -45,6 +45,7 @@ HERO
 
 /* Main banner video */
 video {
+  z-index: 1;
   height: 80%;
   width: 100%;
   object-fit: cover;
@@ -77,16 +78,17 @@ h5 {
   color: white;
 }
 
+.card {
+  z-index: 5;
+}
+
 /* 
 CONTACT
 */
 
 form {
   position: relative;
-}
-
- {
-  /* position: relative; */
+  z-index: 5;
 }
 
 #contact {
@@ -99,12 +101,19 @@ form {
 
 /* 
 FOOTER
- */
+*/
 
- footer-wrapper {
-  padding-top: 100px;
-  position: relative;
- }
-
-
+.footer-wrapper {
+    width: 80%;
+    margin-top: 100px;
+    z-index: 5;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+  
+  
+  
 

@@ -13,8 +13,9 @@ function Navbar() {
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon pt-5"></span>
             </button>
-            <div data-bs-target="#collapseExample" className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-              {/* // TODO: collapse menu on link click data-bs-toggle="collapse" data-bs-target="#collapseExample" */}
+            <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+              {/* // TODO: collapse menu on link click */}
+                {/* <ul className="navbar-nav pt-2 m-2" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> */}
                 <ul className="navbar-nav pt-2 m-2">
                     <li className="nav-item fs-3" >
                     <NavLink to="/" className={({ isActive }) =>

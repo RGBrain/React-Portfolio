@@ -12,7 +12,7 @@ function ProjectCard(props) {
                     <a href="#" className="btn btn-primary">More Info</a>
                 </div>
                 
-                <div class="card-footer">
+                <div className="card-footer">
                     {/* Loop through technologies and render */}
 
                     {/* {props.tech.array.forEach(element => {
