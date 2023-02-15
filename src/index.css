@@ -73,6 +73,15 @@ PROJECTS
   object-position: 25% 50%;
 }
 
+.card-footer {
+  justify-content: space-around;
+  border-top: 1px white solid;
+}
+
+#tech {
+  justify-content: space-between;
+}
+
 /* buttons */
 
 .btn {

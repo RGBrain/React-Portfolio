@@ -15,15 +15,10 @@ function ProjectCard(props) {
                         }
                     </div>
                 </div>
-                
-                <div className="card-footer">
- 
-
+                <div className="card-footer d-flex">
                     {props.tech.map((tech, index) => (
-                    <small className="text-muted" key={index}> {tech} </small>
+                    <small className="text-muted" id="tech" key={index}> {tech} </small>
                 ))}
-         
-
                 </div>
             </div>
         </div>
