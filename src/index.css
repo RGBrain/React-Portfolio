@@ -74,17 +74,22 @@ PROJECTS
 }
 
 /* buttons */
-#gitBtn {
+
+.btn {
   border: white 1px solid;
+
 }
 
+/* Explcit style as conditionally rendered */
 #liveBtn {
   border: white 1px solid;
 }
 
 .button-area {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  /* align-items: flex-start; */
   padding: 10px;
   padding-bottom: 0;
 }
@@ -96,6 +101,7 @@ h5 {
 
 .card {
   z-index: 5;
+  /* height: 500px; */
 }
 
 /* 

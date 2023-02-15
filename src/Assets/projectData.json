@@ -24,7 +24,7 @@
         "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
         "image": "/images/bniScreenshot.jpg",
         "tech": ["React", "JavaScript", "HTML", "CSS", "Bootstrap 5"],
-        "info": "Created using React, and embracing the modular nature that it allows.  I used Bootstrap 5 for the front-end; this portfolio had to completed in four days, and I made the decision to leverage Bootstrap's responsive framework"
+        "info": "My personal web development portfolio site.  Build using React and Bootstrap 5."
     },    
     {
         "id": 4,

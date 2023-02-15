@@ -17,12 +17,12 @@ function ProjectCard(props) {
                 </div>
                 
                 <div className="card-footer">
-                    {/* Loop through technologies and render */}
+ 
 
-                    {/* {props.tech.array.forEach(element => {
-                        <small class="text-muted">{element}</small>
-                    })
-                    } */}
+                    {props.tech.map((tech, index) => (
+                    <small className="text-muted" key={index}> {tech} </small>
+                ))}
+         
 
                 </div>
             </div>
