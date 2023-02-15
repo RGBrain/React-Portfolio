@@ -6,7 +6,7 @@ function Navbar() {
     return (
 
       <header className="navigation">
-        <nav className="navbar navbar-dark navbar-default fixed-top navbar-expand-xl">
+        <nav className="navbar navbar-dark navbar-default fixed-top navbar-expand-xl border-botto">
           <div className="container-fluid" role="navigation">
             {/* // TODO: Add navlink Home button link on name. */}
             <a className="navbar-brand fs-1 m-2 mb-0" href="#">Brain  |  Web Developer</a>

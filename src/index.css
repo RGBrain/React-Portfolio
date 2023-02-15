@@ -69,6 +69,15 @@ HOME
 
 #about {
   position: relative;
+  z-index: 10;
+  min-height: 400px;
+  padding: 15px;
+}
+
+#portrait {
+  margin: 20px;
+  margin-top: 0px;
+  
 }
 
 
@@ -96,11 +105,6 @@ PROJECTS
   min-height: 280px;
 }
 
-/* #card-info {
-  position: relative;
-  top: 330px;
-} */
-
 .card-footer {
   justify-content: space-around;
   border-top: 1px white solid;
@@ -116,11 +120,6 @@ PROJECTS
   border: white 1px solid;
 
 }
-
-/* Explcit style as conditionally rendered */
-/* #liveBtn {
-  border: white 1px solid;
-} */
 
 .button-area {
   /* border: red solid 4px; */
@@ -154,10 +153,6 @@ form {
 #contact {
   position: relative;
 }
-
-#contact-heading {
-}
-
 
 /* 
 FOOTER

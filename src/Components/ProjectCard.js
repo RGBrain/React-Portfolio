@@ -4,7 +4,7 @@ function ProjectCard(props) {
     {console.log(props.image)}
     return (
         <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="card">
+            <div className="card border rounded">
                 <img src={props.image} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h3 className="text-white">{props.title}</h3>
