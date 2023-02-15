@@ -5,8 +5,8 @@
         "gitHub": "https://github.com/RGBrain/Big-Night-In",
         "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
         "image": "/images/bni.png",
-        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS"],
-        "info": "Big Night in is a site that provides a user with movie recommendations.  Working in a team of three, I was responsible for writing the JavaScript, including handling the API calls"
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML/CSS"],
+        "info": "Big Night In provides a user with movie recommendations, along with a local pizza recommendation. "
     },
     {
         "id": 2,
@@ -23,8 +23,8 @@
         "gitHub": "https://github.com/RGBrain/Big-Night-In",
         "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
         "image": "/images/bniScreenshot.jpg",
-        "tech": ["React", "JavaScript", "HTML", "CSS", "Bootstrap 5"],
-        "info": "My personal web development portfolio site.  Build using React and Bootstrap 5."
+        "tech": ["React", "JavaScript", "HTML/CSS", "Bootstrap 5"],
+        "info": "My personal web development portfolio site.  Built using React and Bootstrap 5."
     },    
     {
         "id": 4,
@@ -32,8 +32,8 @@
         "gitHub": "https://github.com/RGBrain/Weather-Dashboard",
         "liveUrl": "https://rgbrain.github.io/Weather-Dashboard/",
         "image": "/images/weather-dashboard.png",
-        "tech": ["JavaScript", "JQuery", "APIs", "HTML", "CSS", "Bootstrap"],
-        "info": "Big Night in is a site that provides a user with movie recommendations"
+        "tech": ["JavaScript", "JQuery", "APIs", "HTML/CSS", "Local storage"],
+        "info": "Provides a 5 day weather forecast for a searched city.  A search history is provided by utilising local storage."
     },    
     {
         "id": 5,
@@ -41,7 +41,7 @@
         "gitHub": "https://github.com/RGBrain/PW-Generator",
         "liveUrl": "https://rgbrain.github.io/PW-Generator/",
         "image": "/images/password-generator.png",
-        "tech": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+        "tech": ["JavaScript", "HTML/CSS", "Bootstrap"],
         "info": "JS Application which with create a pseudo-random password, with customised options"
     },    
     {
@@ -50,7 +50,7 @@
         "gitHub": "https://github.com/RGBrain/Team-Profile-Generator",
         "liveUrl": "not live",
         "image": "/images/team-profile-generator.png",
-        "tech": ["Node.js", "HTML", "CSS", "Bootstrap"],
+        "tech": ["Node.js", "HTML/CSS", "Bootstrap"],
         "info": "Command Line Application - uses Node.js to collect information regarding a team and then renders a webpage"
     }
 ]

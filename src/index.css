@@ -73,6 +73,23 @@ PROJECTS
   object-position: 25% 50%;
 }
 
+.card-body {
+  height: 330px;
+  /* border: blue 4px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  min-height: 280px;
+}
+
+/* #card-info {
+  position: relative;
+  top: 330px;
+} */
+
 .card-footer {
   justify-content: space-around;
   border-top: 1px white solid;
@@ -95,11 +112,12 @@ PROJECTS
 }
 
 .button-area {
+  /* border: red solid 4px; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /* align-items: flex-start; */
-  padding: 10px;
+  justify-content: space-around;
+  /* align-self: flex-end; */
+  padding: 0px;
   padding-bottom: 0;
 }
 
