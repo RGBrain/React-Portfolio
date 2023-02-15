@@ -6,10 +6,10 @@ function Navbar() {
     return (
 
       <header className="navigation">
-        <nav className="navbar navbar-dark navbar-default fixed-top navbar-expand-lg">
+        <nav className="navbar navbar-dark navbar-default fixed-top navbar-expand-xl">
           <div className="container-fluid" role="navigation">
             {/* // TODO: Add navlink Home button link on name. */}
-            <a className="navbar-brand fs-1 m-2 mb-0" href="#">Richard Brain  |  Web Developer</a>
+            <a className="navbar-brand fs-1 m-2 mb-0" href="#">Brain  |  Web Developer</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon pt-5"></span>
             </button>

@@ -118,9 +118,9 @@ PROJECTS
 }
 
 /* Explcit style as conditionally rendered */
-#liveBtn {
+/* #liveBtn {
   border: white 1px solid;
-}
+} */
 
 .button-area {
   /* border: red solid 4px; */

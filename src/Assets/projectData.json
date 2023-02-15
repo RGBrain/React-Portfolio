@@ -50,7 +50,7 @@
         "gitHub": "https://github.com/RGBrain/Team-Profile-Generator",
         "liveUrl": "not live",
         "image": "/images/team-profile-generator.png",
-        "tech": ["Node.js", "HTML/CSS", "Bootstrap 4"],
+        "tech": ["Node.js", "jest", "HTML/CSS", "Bootstrap 4"],
         "info": "Command Line Application - uses Node.js to collect information regarding a team and then renders a webpage"
     }
 ]
