@@ -1,7 +1,14 @@
 import React from "react";
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Footer() {
+
+    let location = useLocation();
+
+    React.useEffect(() => {
+        window.scrollTo(0,0);
+    }, [location]);
+
     return (
             <div className="container footer-wrapper bg-transparent">
                 <footer className="py-0 my-4 bg-transparent">

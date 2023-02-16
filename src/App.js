@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+
 // TODO: ADD README-Generator screenshot
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       </Router>
 
     </div>
+
+
   );
 }
 
