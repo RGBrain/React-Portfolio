@@ -1,7 +1,6 @@
 import React from "react";
 
 function ProjectCard(props) {
-    {console.log(props.image)}
     return (
         <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card border rounded">

@@ -3,8 +3,8 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 function Footer() {
 
+    // Scroll to top of window when link clicked
     let location = useLocation();
-
     React.useEffect(() => {
         window.scrollTo(0,0);
     }, [location]);
