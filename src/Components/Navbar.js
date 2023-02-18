@@ -2,7 +2,6 @@
   import { NavLink, useLocation } from 'react-router-dom';
   
   function Navbar() {
-    
 
       function collapseDiv(e) {
           let element = e.target;
