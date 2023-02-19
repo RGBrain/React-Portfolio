@@ -7,7 +7,7 @@ function Contact() {
           <div className="container-lg">
 
             <div className="row justify-content-center text-white m-5">
-                <div className="col-lg-6">
+                <div className="col-xl-6 col-lg-8 col-md-10 col-sm-12">
                     <form className="text-white p-3 pb-5 pt-5 bg-transparent">
                         <div className="text-center border rounded" style={{height: "70px"}} id="contact-heading">
                             <h2 className="text-white mt-3">Get in Touch</h2>
