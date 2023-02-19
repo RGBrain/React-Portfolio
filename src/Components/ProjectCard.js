@@ -9,8 +9,8 @@ function ProjectCard(props) {
                     <h3 className="text-white">{props.title}</h3>
                     <p id="card-info" className="card-text text-white">{props.info}</p>
                     <div className="button-area">
-                        <a href={props.gitHub} className="btn-lg btn btn-primary" id="gitBtn">GitHub</a>
-                        { props.liveUrl !== "not live" ? <a href={props.liveUrl} className="btn-lg btn btn-primary" id="liveBtn">Live</a> : <a href={props.liveUrl} className="disabled btn-lg btn btn-primary" id="liveBtn">CLA</a>
+                        <a href={props.gitHub} className="btn-lg btn btn-primary glow-on-hover" id="gitBtn">GitHub</a>
+                        { props.liveUrl !== "not live" ? <a href={props.liveUrl} className="btn-lg btn btn-primary glow-on-hover" id="liveBtn">Live</a> : <a href={props.liveUrl} className="disabled btn-lg btn btn-dark" id="liveBtn">CLA</a>
                         }
                     </div>
                 </div>

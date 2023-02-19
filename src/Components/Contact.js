@@ -18,8 +18,8 @@ function Contact() {
                         
                         <textarea id="query" placeholder="Message" className="form-control mb-1 mt-3 text-white" style={{height: "140px"}}></textarea>
 
-                        <div className="text-center mb-4 mt-3 bg-transparent text-white">
-                            <button type="submit" className="btn btn-secondary">Submit</button>
+                        <div className="text-center mb-4 mt-3 bg-transparent text-white ">
+                            <button type="submit" className="btn btn-secondary glow-on-hover">Submit</button>
 
                         </div>
 
