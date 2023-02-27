@@ -11,7 +11,7 @@ class Projects extends Component {
     return (
       <div className="container project-card-grid">
         <div className="row gy-4">
-        {this.state.data.map(project => (
+        {this.state.data.map((project, index) => (
           <ProjectCard
             info={project.info}
             image={project.image}
@@ -19,6 +19,7 @@ class Projects extends Component {
             gitHub={project.gitHub}
             tech={project.tech}
             liveUrl={project.liveUrl}
+            key={index}
           />
         ))}
         </div>
