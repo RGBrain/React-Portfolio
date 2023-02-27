@@ -21,14 +21,14 @@ function Contact() {
         setMessage(event.target.value);
     };
 
-
     const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_o2fol9r', 'contact_form', form.current, 'EdfyCsZWNaGrPgZOe')
       .then((result) => {
           console.log(result.text);
-          alert("Email sent.");
+          alert("Message sent.");
+          // Clear input values after form submitted
           setUser_name('');
           setUser_Email('');
           setMessage('');
@@ -36,7 +36,6 @@ function Contact() {
           console.log(error.text);
           alert("We have encountered a problem", error);
       }
-        // Clear input values after form submitted
       );
   };
 
@@ -44,7 +43,6 @@ function Contact() {
         // Contact form
         <section id="contact d-flex">
           <div className="container-lg">
-
             <div className="row justify-content-center text-white m-5">
                 <div className="col-xl-6 col-lg-8 col-md-10 col-sm-12">
                     <form ref={form} onSubmit={sendEmail} className="text-white p-3 pb-5 pt-5 bg-transparent">
@@ -87,12 +85,9 @@ function Contact() {
                         <div className="text-center mb-4 mt-3 bg-transparent text-white ">
                             <button type="submit" className="btn btn-secondary glow-on-hover">Submit</button>
                         </div>
-
                     </form>
                 </div>
-
             </div>
-
           </div>
         </section>
     );
