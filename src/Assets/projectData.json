@@ -20,8 +20,8 @@
     {
         "id": 3,
         "title": "React Portfolio",
-        "gitHub": "https://github.com/RGBrain/Big-Night-In",
-        "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
+        "gitHub": "https://github.com/RGBrain/react-portfolio",
+        "liveUrl": "https://rgbrain.github.io/react-portfolio/",
         "image": "/images/react-portfolio.png",
         "tech": ["React", "JS", "Bootstrap 5"],
         "info": "My personal web development portfolio site.  Built using React and Bootstrap 5."
