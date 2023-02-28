@@ -23,11 +23,15 @@ My web development portfolio site.  It contains a number of my previous projects
 
 ## Installation
 
-My portfolio is live at INSERT WEB ADDRESS
+No need to install, my portfolio is live here:  **https://rgbrain.github.io/React-Portfolio/**
 
 ## Usage
 
-Simply visit INSERT WEB ADDRESS and you can find-out a bit about me, and my projects.  There are also links to my GitHub project repositories on the Projects page.
+Simply visit **https://rgbrain.github.io/React-Portfolio/** and you can find-out a bit about me, and my projects.  There are also links to my GitHub project repositories on the Projects page.
+
+**SCREENSHOT**
+
+   ![Project Screenshot](public/images/portfolio-screenshot.png)
 
 ## Contribution
 
@@ -35,7 +39,7 @@ I am generally very open to contributions, and I generally use the MIT license. 
 
 ## Testing
 
-Please let me know if you find any problem with my site: richard.brain@hotmail.co.uk
+Please let me know if you find any problem with my site.
 
 ## Questions
 
