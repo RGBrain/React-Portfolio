@@ -16,9 +16,9 @@
         <header className="navigation">
           <nav className="navbar navbar-dark navbar-default fixed-top navbar-expand-xl border-botto">
             <div className="container-fluid" role="navigation">
-              {/* Add 'home' link to logo */}
+              {/* 'home' link for logo */}
               <a className="navbar-brand fs-1 m-2 mb-0"><NavLink to="/" className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'}>Brain  |  Web Developer</NavLink></a>
+                  isActive ? 'nav-link active' : 'nav-link'}><span id="title">Brain  |  Web Developer</span></NavLink></a>
   
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon pt-5"></span>

@@ -217,3 +217,51 @@ footer p {
   100% { background-position: 0 0; }
 }
 
+/* MEDIA QUERIES
+
+/* Tablets */
+
+@media screen and (max-width: 767px) {
+
+  .home-btn-container {
+    justify-content: space-around;
+    border: green solid 4px;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  .homepage-btn {
+    padding: 5px;
+    width: 120px;
+  }
+}
+
+/* Mobiles */
+
+@media screen and (max-width: 450px) {
+
+  /* Navbar */
+
+  #title {
+    font-size: 0.8em;
+  }
+
+  /* About */
+
+  #portrait {
+    height: 5%;
+    max-height: 400;
+    width: 90%;
+  }
+
+  #about {
+    min-width: 300px;
+    justify-self: center;
+  }
+
+  .homepage-btn {
+    padding: 5px;
+    width: 120px;
+  }
+}
