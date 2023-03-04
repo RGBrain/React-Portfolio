@@ -4,7 +4,7 @@
         "title": "Big Night In",
         "gitHub": "https://github.com/RGBrain/Big-Night-In",
         "liveUrl": "https://rgbrain.github.io/Big-Night-In/",
-        "image": "/images/bni.png",
+        "image": "https://rgbrain.github.io/React-Portfolio/images/bni.png",
         "tech": ["JQuery", "REST APIs", "HTML/CSS"],
         "info": "Big Night In provides a user with movie recommendations, along with a local pizza recommendation. "
     },
@@ -13,7 +13,7 @@
         "title": "README Generator",
         "gitHub": "https://github.com/RGBrain/README-Generator",
         "liveUrl": "not live",
-        "image": "/images/readme-generator.png",
+        "image": "https://rgbrain.github.io/React-Portfolio/images/readme-generator.png",
         "tech": ["Node.js", "JS", "Markdown"],
         "info": "Command Line Application - uses Node.js to generate professional README documentation from command line inputs."
     },    
@@ -22,7 +22,7 @@
         "title": "React Portfolio",
         "gitHub": "https://github.com/RGBrain/react-portfolio",
         "liveUrl": "https://rgbrain.github.io/react-portfolio/",
-        "image": "/images/react-portfolio.png",
+        "image": "https://rgbrain.github.io/React-Portfolio/images/react-portfolio.png",
         "tech": ["React", "JS", "Bootstrap 5"],
         "info": "My personal web development portfolio site.  Built using React and Bootstrap 5."
     },    
@@ -31,7 +31,7 @@
         "title": "Weather Dashboard",
         "gitHub": "https://github.com/RGBrain/Weather-Dashboard",
         "liveUrl": "https://rgbrain.github.io/Weather-Dashboard/",
-        "image": "/images/weather-dashboard.png",
+        "image": "https://rgbrain.github.io/React-Portfolio/images/weather-dashboard.png",
         "tech": ["JQuery", "REST API", "HTML/CSS"],
         "info": "Provides a 5 day weather forecast for a searched city.  A search history is provided by utilising local storage."
     },    
@@ -40,7 +40,7 @@
         "title": "Password Generator",
         "gitHub": "https://github.com/RGBrain/PW-Generator",
         "liveUrl": "https://rgbrain.github.io/PW-Generator/",
-        "image": "/images/password-generator.png",
+        "image": "https://rgbrain.github.io/React-Portfolio/images/password-generator.png",
         "tech": ["JS", "HTML/CSS", "Bootstrap 4"],
         "info": "JS Application which with create a pseudo-random password, with customisable options"
     },    
@@ -49,7 +49,7 @@
         "title": "Team Profile Generator",
         "gitHub": "https://github.com/RGBrain/Team-Profile-Generator",
         "liveUrl": "not live",
-        "image": "/images/team-profile-generator.png",
+        "image": "https://rgbrain.github.io/React-Portfolio/images/team-profile-generator.png",
         "tech": ["Node.js", "Inquirer", "jest", "TDD"],
         "info": "Command Line Application - uses Node.js to collect information regarding a team and then renders a webpage"
     }
