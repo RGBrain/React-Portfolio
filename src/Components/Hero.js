@@ -5,7 +5,7 @@ function Hero() {
     return (
           <div className="hero-wrapper">
           <div className="main-hero">
-            <video src={retroBanner} autoPlay loop muted />
+            <video src={retroBanner} autoPlay loop muted playsInline/>
           </div>
           </div>
     );
