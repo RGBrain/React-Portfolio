@@ -1,7 +1,7 @@
   import React from "react";
   import { NavLink } from 'react-router-dom';
   
-  function Navbar({match}) {
+  function Navbar() {
 
       function collapseDiv(e) {
           let element = e.target;
@@ -25,6 +25,7 @@
               </button>
               <div className={`collapse navbar-collapse flex-row-reverse`} id="navbarNav">
                   <ul className="navbar-nav pt-2 m-2" onClick={collapseDiv}>
+                    {/* ! HOME LINK */}
                       <li className="nav-item fs-3">
                       <NavLink to="/React-Portfolio/" className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
