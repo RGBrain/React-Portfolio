@@ -18,7 +18,7 @@ function App() {
         {/* Need to change the layout so that the Hero is within the other components */}
         <Navbar />
           <Routes>
-              <Route exact path="/" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
           </Routes>
