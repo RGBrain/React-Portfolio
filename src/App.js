@@ -18,9 +18,9 @@ function App() {
         {/* Need to change the layout so that the Hero is within the other components */}
         <Navbar />
           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/React-Portfolio/" element={<Home />} />
+              <Route path="/React-Portfolio/projects" element={<Projects />} />
+              <Route path="/React-Portfolio/contact" element={<Contact />} />
           </Routes>
         <Footer />
       </Router>
