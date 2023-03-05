@@ -3,11 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 function Home() {
 
-    // const profilePic = document.getElementById('portrait');
-    //   if (window.innerWidth < 600) {
-    //     profilePic.classList.remove("float-end");
-    // };
-
     return (
         <section className="home mt-5 pt-5">
           <div className="home text-white" id="intro">
@@ -20,7 +15,7 @@ function Home() {
               <p className="lead">I love coding - Building things in JavaScript is so rewarding, CSS is a delicious puzzle to solve.  Currently I'm enjoying using React, both for this portfolio, and a project called MiiX, which uses Spotify's API to create group listening sessions.</p>
               <p className="lead">Take a look at my projects page to see what I have been working on: </p>
               <div className="home-btn-container container-flex d-flex p-4">
-                <NavLink to="/projects" className='home-btn text-white nav-link active bg-transparent nav-router m-3'><button className="btn btn-lg btn-primary homepage-btn glow-on-hover">Projects</button></NavLink><NavLink to="/contact" className='home-btn text-white nav-link active bg-transparent '><button className="btn btn-lg btn-primary homepage-btn m-3 glow-on-hover">Contact</button></NavLink>
+                <NavLink to="/React-Portfolio/projects" className='home-btn text-white nav-link active bg-transparent nav-router m-3'><button className="btn btn-lg btn-primary homepage-btn glow-on-hover">Projects</button></NavLink><NavLink to="/React-Portfolio/contact" className='home-btn text-white nav-link active bg-transparent '><button className="btn btn-lg btn-primary homepage-btn m-3 glow-on-hover">Contact</button></NavLink>
               </div>
             </div>
           </div>
