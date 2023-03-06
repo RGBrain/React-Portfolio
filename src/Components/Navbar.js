@@ -27,7 +27,7 @@
                   <ul className="navbar-nav pt-2 m-2" onClick={collapseDiv}>
                       <li className="nav-item fs-3">
                       <NavLink to="React-Portfolio/" className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'}>Home<React-PortfolioNavLink>
+                  isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
                       </li>
                       <li className="nav-item fs-3 ">
                       <NavLink to="React-Portfolio/projects" className={({ isActive }) =>
