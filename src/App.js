@@ -8,16 +8,12 @@ import Projects from './Components/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
-// TODO: ADD README-Generator screenshot
-
 function App() {
 
   return (
     <div>
       <Hero />
       <Router>
-
-        {/* Need to change the layout so that the Hero is within the other components */}
         <Navbar />
           <Routes>
               <Route path="React-Portfolio/" element={<Home />} />
