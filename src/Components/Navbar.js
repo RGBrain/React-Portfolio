@@ -26,15 +26,15 @@
               <div className={`collapse navbar-collapse flex-row-reverse`} id="navbarNav">
                   <ul className="navbar-nav pt-2 m-2" onClick={collapseDiv}>
                       <li className="nav-item fs-3">
-                      <NavLink to="/" className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
+                      <NavLink to="React-Portfolio/" className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'}>Home<React-PortfolioNavLink>
                       </li>
                       <li className="nav-item fs-3 ">
-                      <NavLink to="/projects" className={({ isActive }) =>
+                      <NavLink to="React-Portfolio/projects" className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'}>Projects</NavLink>
                       </li>
                       <li className="nav-item fs-3">
-                      <NavLink to="/contact" className={({ isActive }) =>
+                      <NavLink to="React-Portfolio/contact" className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'}>Contact</NavLink>
                       </li>                      
                   </ul>
