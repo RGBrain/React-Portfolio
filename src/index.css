@@ -49,6 +49,10 @@ video {
   position: fixed;
 }
 
+#image-background {
+  display: none;
+}
+
 /* 
 HOME
 */
@@ -224,6 +228,18 @@ footer p {
 /* Tablets */
 
 @media screen and (max-width: 767px) {
+
+  /* Background */
+
+  #video-background {
+    display: none;
+  }
+
+  #image-background {
+    display: block;
+    position: fixed;
+    width: 100%;
+  }
 
   /* Homepage */
 
